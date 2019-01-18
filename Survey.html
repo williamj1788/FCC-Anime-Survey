@@ -3,10 +3,83 @@
 	<head>
 		<title>anime survey</title>
 		<link rel="stylesheet" href="SurveyStyle.css">
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
 	</head>
 	<body>
 		<h1 id="title">Anime survey</h1>
-		
-	
+		<div id="container">
+			<p id="description"> What is your opinion on morden anime</p>
+			<form id="survey-form">
+				<div class="row">
+					<div class="rowLeft">
+						<label id="name-label" for="name">Name: </label>
+					</div>
+					<div class="rowRight">
+						<input id="name" class="input-field" placeholder="Enter email" type="text" name="name" required>
+					</div>
+				</div>
+				<div class="row">
+					<div class="rowLeft">
+						<label id="email-label" for="name">Email: </label>
+					</div>
+					<div class="rowRight">
+						<input id="email" class="input-field" placeholder="Enter email" type="email" name="email" required>
+					</div>
+				</div>
+				<div class="row">
+					<div class="rowLeft">
+						<label id="number-label" for="totalAnime">How many animes have you watched? </label>
+					</div>
+					<div class="rowRight">
+						<input id="number" class="input-field" 
+						placeholder="Total Anime" type="number" name="totalAnime" min="0" max="25">
+					</div>
+				</div>
+				<div class="row">
+					<div class="rowLeft">
+						<label id="favorite-label" for="favAnime">What was your favorite anime?</label>
+					</div>
+					<div class="rowRight">
+						<select id="dropdown" name="favAnime">
+							<option value="punch">One Punch Man</option>
+							<option value="tokyo">tokyo goul</option>
+							<option value="hero">my hero acdemia</option>
+							<option value="naurto">naurto</option>
+						</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="rowLeft">
+						<label id="active" for="StillActive">Do you still watch anime?</label>
+					</div>
+					<div class="rowRight">
+						<input type="radio" name="isActive" value="yes"> Yes <br>
+						<input type="radio" name="isActive" value="no"> No <br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="rowLeft">
+						<label id="watched-label" for="watched">How many animes have you watched? </label>
+					</div>
+					<div class="rowRight">
+						<input type="checkbox" name="watched" value="punch"> One Punch Man <br>
+						<input type="checkbox" name="watched" value="tokyo"> Tokyo Goul <br>
+						<input type="checkbox" name="watched" value="hero"> My Hero Acdemia <br>
+						<input type="checkbox" name="watched" value="naurto"> Naurto <br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="rowLeft">
+						<label id="comment-label" for="comment">What animes have you not seen </label>
+					</div>
+					<div class="rowRight">
+						<textarea id="email" class="input-field" placeholder="Enter email" type="email" name="comment" required></textarea>
+					</div>
+				</div>
+				<div id="submit-field">
+					<button id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
 	</body>
 </html>
