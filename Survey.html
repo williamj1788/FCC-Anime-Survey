@@ -22,7 +22,7 @@
 							<label id="name-label" for="name" class="float-right text-right">Name: </label>
 						</div>
 						<div class="col">
-							<input id="name" class="input-field" placeholder="Enter email" type="text" name="name" required>
+							<input id="name" class="input-field" placeholder="Enter name" type="text" name="name" required>
 						</div>
 					</div>
 					<div class="row mx-0 mb-2">
@@ -39,19 +39,20 @@
 						</div>
 						<div class="col">
 							<input id="number" class="input-field" 
-							placeholder="Total Anime" type="number" name="totalAnime" min="0" max="25">
+							placeholder="# of Animes" type="number" name="totalAnime" min="0" max="25">
 						</div>
 					</div>
 					<div class="row mx-0 mb-2">
 						<div class="col">
-							<label id="favorite-label" for="favAnime" class="float-right text-right">What was your favorite anime?</label>
+							<label id="favorite-label" for="favAnime" class="float-right text-right">What is your favorite anime?</label>
 						</div>
 						<div class="col">
 							<select id="dropdown" name="favAnime">
+								<option value="none" selected>Select one</option>
 								<option value="punch">One Punch Man</option>
-								<option value="tokyo">tokyo goul</option>
-								<option value="hero">my hero acdemia</option>
-								<option value="naurto">naurto</option>
+								<option value="tokyo">Tokyo Goul</option>
+								<option value="hero">My Hero Acdemia</option>
+								<option value="naurto">Naurto</option>
 							</select>
 						</div>
 					</div>
@@ -77,14 +78,14 @@
 					</div>
 					<div class="row mx-0 mb-2">
 						<div class="col">
-							<label id="comment-label" for="comment" class="float-right text-right">What animes have you not seen? </label>
+							<label id="comment-label" for="comment" class="float-right text-right">What are your thoughts on this survey? </label>
 						</div>
 						<div class="col">
 							<textarea id="email" class="input-field" placeholder="Enter email" type="email" name="comment" required></textarea>
 						</div>
 					</div>
 					<div id="submit-field" class="row mx-0 mb-2">
-						<button id="submit" type="submit" class="col btn">Submit</button>
+						<button id="submit" type="submit" class="col btn btn-primary">Submit</button>
 					</div>
 				</div>
 			</form>
