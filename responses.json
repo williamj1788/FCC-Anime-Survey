@@ -1,0 +1,42 @@
+{
+  "responses": [
+    {
+      "name": "Jacquez Williams",
+      "email": "jacquezwilliams115@gmail.com",
+      "totalAnime": "",
+      "favAnime": "none",
+      "comment": "d"
+    },
+    {
+      "name": "Jacquez",
+      "email": "jacquezwilliams115@gmail.com",
+      "totalAnime": "3",
+      "favAnime": "naurto",
+      "isActive": "yes",
+      "watched": [
+        "hero",
+        "naurto"
+      ],
+      "comment": "Like Stuff"
+    },
+    {
+      "name": "Jacquez",
+      "email": "jacquezwilliams115@gmail.com",
+      "totalAnime": "3",
+      "favAnime": "naurto",
+      "isActive": "yes",
+      "watched": [
+        "hero",
+        "naurto"
+      ],
+      "comment": "Like Stuff"
+    },
+    {
+      "name": "Jacquez Williams",
+      "email": "jacquezwilliams115@gmail.com",
+      "totalAnime": "",
+      "favAnime": "none",
+      "comment": "l"
+    }
+  ]
+}
