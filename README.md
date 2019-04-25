@@ -33,3 +33,9 @@
 ## Pages
 
 ### Version 1
+
+![Version 1](./Survey.PNG)
+
+### Version 2
+
+![Version 2](./Survey2.PNG)
